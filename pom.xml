@@ -16,6 +16,7 @@
         <module>service-hi</module>
         <module>open-api</module>
         <module>service-zuul</module>
+        <module>auth-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
