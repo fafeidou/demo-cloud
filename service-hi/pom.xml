@@ -44,6 +44,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-oauth2</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.demo.cloud</groupId>
+            <artifactId>cloud-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

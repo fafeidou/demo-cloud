@@ -17,6 +17,7 @@
         <module>open-api</module>
         <module>service-zuul</module>
         <module>auth-server</module>
+        <module>cloud-base</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
