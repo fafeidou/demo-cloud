@@ -8,8 +8,16 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://user:password123@${eureka.instance.hostname}:${server.port}/eureka/
 
 spring:
   application:
     name: eurka-server
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password123
