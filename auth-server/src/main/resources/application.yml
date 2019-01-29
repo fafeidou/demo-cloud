@@ -20,7 +20,7 @@ spring:
     mongodb:
       port: 27017
       database: auth_server
-      host: 192.168.133.54
+      host: 192.168.17.62
   redis:
     host: localhost
     port: 6379
@@ -30,3 +30,4 @@ security:
   oauth2:
     resource:
       filter-order: 3
+
